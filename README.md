@@ -10,6 +10,8 @@ in your terminal and press enter.
 
 ## Cool Visualizations
 
+1.
+```
 2 Card 3 Symbol:
 Transition for card 0 on input 0: 111
 Transition for card 0 on input 1: 201
@@ -17,9 +19,13 @@ Transition for card 0 on input 2: 11-1
 Transition for card 1 on input 0: 200
 Transition for card 1 on input 1: 211
 Transition for card 1 on input 2: 101
+```
 
 ![](https://github.com/csn3rd/Busy-Gopher-Game/blob/master/2card3symbol.png)
 
+
+2.
+```
 4 Card 2 Symbol:
 Transition for card 0 on input 0: 111
 Transition for card 0 on input 1: 101
@@ -29,6 +35,7 @@ Transition for card 2 on input 0: 11-1
 Transition for card 2 on input 1: 103
 Transition for card 3 on input 0: 113
 Transition for card 3 on input 1: 010
+```
 
 ![](https://github.com/csn3rd/Busy-Gopher-Game/blob/master/4card2symbol.png)
 
