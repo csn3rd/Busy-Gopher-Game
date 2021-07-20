@@ -75,7 +75,7 @@ func printTape(w io.Writer, pos int, crd string) {
 		var col = "\u001B[31m"
 		if (i == pos) {
 			col += "\u001b[43m"
-		} else if tape[i] == "1" {
+		} else if tape[i] != "0" {
 			col += "\u001B[42m"
 		}
 		var delay = 0
@@ -91,7 +91,7 @@ func printTape(w io.Writer, pos int, crd string) {
 func scoreTape(w io.Writer) {
 	var score = 0
 	for i := 0; i < len(tape); i++ {
-		if tape[i] == "1" {
+		if tape[i] != "0" {
 			score++
 		}
 	}
